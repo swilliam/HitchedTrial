@@ -39,20 +39,20 @@
 		B5B37A25138CDD290035BAB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B5B37A27138CDD290035BAB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B5B37A29138CDD290035BAB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B5B37A2D138CDD290035BAB9 /* HitchedTrial-Info.plist */ = {isa = PBXFileReference; path = "HitchedTrial-Info.plist"; sourceTree = "<group>"; };
+		B5B37A2D138CDD290035BAB9 /* HitchedTrial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitchedTrial-Info.plist"; sourceTree = "<group>"; };
 		B5B37A2F138CDD290035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B5B37A31138CDD290035BAB9 /* HitchedTrial-Prefix.pch */ = {isa = PBXFileReference; path = "HitchedTrial-Prefix.pch"; sourceTree = "<group>"; };
+		B5B37A31138CDD290035BAB9 /* HitchedTrial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HitchedTrial-Prefix.pch"; sourceTree = "<group>"; };
 		B5B37A32138CDD290035BAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5B37A34138CDD290035BAB9 /* HitchedTrialAppDelegate.h */ = {isa = PBXFileReference; path = HitchedTrialAppDelegate.h; sourceTree = "<group>"; };
+		B5B37A34138CDD290035BAB9 /* HitchedTrialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitchedTrialAppDelegate.h; sourceTree = "<group>"; };
 		B5B37A35138CDD290035BAB9 /* HitchedTrialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitchedTrialAppDelegate.m; sourceTree = "<group>"; };
 		B5B37A38138CDD290035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B5B37A3A138CDD290035BAB9 /* HitchedTrialViewController.h */ = {isa = PBXFileReference; path = HitchedTrialViewController.h; sourceTree = "<group>"; };
+		B5B37A3A138CDD290035BAB9 /* HitchedTrialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitchedTrialViewController.h; sourceTree = "<group>"; };
 		B5B37A3B138CDD290035BAB9 /* HitchedTrialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitchedTrialViewController.m; sourceTree = "<group>"; };
 		B5B37A3E138CDD2A0035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HitchedTrialViewController.xib; sourceTree = "<group>"; };
 		B5B37A45138CDD2A0035BAB9 /* HitchedTrialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitchedTrialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5B37A4D138CDD2A0035BAB9 /* HitchedTrialTests-Info.plist */ = {isa = PBXFileReference; path = "HitchedTrialTests-Info.plist"; sourceTree = "<group>"; };
+		B5B37A4D138CDD2A0035BAB9 /* HitchedTrialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitchedTrialTests-Info.plist"; sourceTree = "<group>"; };
 		B5B37A4F138CDD2A0035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B5B37A51138CDD2A0035BAB9 /* HitchedTrialTests-Prefix.pch */ = {isa = PBXFileReference; path = "HitchedTrialTests-Prefix.pch"; sourceTree = "<group>"; };
+		B5B37A51138CDD2A0035BAB9 /* HitchedTrialTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HitchedTrialTests-Prefix.pch"; sourceTree = "<group>"; };
 		B5B37A52138CDD2A0035BAB9 /* HitchedTrialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitchedTrialTests.h; sourceTree = "<group>"; };
 		B5B37A54138CDD2A0035BAB9 /* HitchedTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitchedTrialTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
