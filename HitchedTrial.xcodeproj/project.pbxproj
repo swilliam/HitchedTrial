@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B37A26138CDD290035BAB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B37A25138CDD290035BAB9 /* UIKit.framework */; };
+		B5B37A28138CDD290035BAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B37A27138CDD290035BAB9 /* Foundation.framework */; };
+		B5B37A2A138CDD290035BAB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B37A29138CDD290035BAB9 /* CoreGraphics.framework */; };
+		B5B37A30138CDD290035BAB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5B37A2E138CDD290035BAB9 /* InfoPlist.strings */; };
+		B5B37A33138CDD290035BAB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B37A32138CDD290035BAB9 /* main.m */; };
+		B5B37A36138CDD290035BAB9 /* HitchedTrialAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B37A35138CDD290035BAB9 /* HitchedTrialAppDelegate.m */; };
+		B5B37A39138CDD290035BAB9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B37A37138CDD290035BAB9 /* MainWindow.xib */; };
+		B5B37A3C138CDD290035BAB9 /* HitchedTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B37A3B138CDD290035BAB9 /* HitchedTrialViewController.m */; };
+		B5B37A3F138CDD2A0035BAB9 /* HitchedTrialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B37A3D138CDD2A0035BAB9 /* HitchedTrialViewController.xib */; };
+		B5B37A46138CDD2A0035BAB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B37A25138CDD290035BAB9 /* UIKit.framework */; };
+		B5B37A47138CDD2A0035BAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B37A27138CDD290035BAB9 /* Foundation.framework */; };
+		B5B37A48138CDD2A0035BAB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B37A29138CDD290035BAB9 /* CoreGraphics.framework */; };
+		B5B37A50138CDD2A0035BAB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5B37A4E138CDD2A0035BAB9 /* InfoPlist.strings */; };
+		B5B37A53138CDD2A0035BAB9 /* HitchedTrialTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B5B37A52138CDD2A0035BAB9 /* HitchedTrialTests.h */; };
+		B5B37A55138CDD2A0035BAB9 /* HitchedTrialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B37A54138CDD2A0035BAB9 /* HitchedTrialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5B37A49138CDD2A0035BAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5B37A18138CDD290035BAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5B37A20138CDD290035BAB9;
+			remoteInfo = HitchedTrial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5B37A21138CDD290035BAB9 /* HitchedTrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitchedTrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B37A25138CDD290035BAB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5B37A27138CDD290035BAB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5B37A29138CDD290035BAB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5B37A2D138CDD290035BAB9 /* HitchedTrial-Info.plist */ = {isa = PBXFileReference; path = "HitchedTrial-Info.plist"; sourceTree = "<group>"; };
+		B5B37A2F138CDD290035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5B37A31138CDD290035BAB9 /* HitchedTrial-Prefix.pch */ = {isa = PBXFileReference; path = "HitchedTrial-Prefix.pch"; sourceTree = "<group>"; };
+		B5B37A32138CDD290035BAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5B37A34138CDD290035BAB9 /* HitchedTrialAppDelegate.h */ = {isa = PBXFileReference; path = HitchedTrialAppDelegate.h; sourceTree = "<group>"; };
+		B5B37A35138CDD290035BAB9 /* HitchedTrialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitchedTrialAppDelegate.m; sourceTree = "<group>"; };
+		B5B37A38138CDD290035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B5B37A3A138CDD290035BAB9 /* HitchedTrialViewController.h */ = {isa = PBXFileReference; path = HitchedTrialViewController.h; sourceTree = "<group>"; };
+		B5B37A3B138CDD290035BAB9 /* HitchedTrialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitchedTrialViewController.m; sourceTree = "<group>"; };
+		B5B37A3E138CDD2A0035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HitchedTrialViewController.xib; sourceTree = "<group>"; };
+		B5B37A45138CDD2A0035BAB9 /* HitchedTrialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitchedTrialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B37A4D138CDD2A0035BAB9 /* HitchedTrialTests-Info.plist */ = {isa = PBXFileReference; path = "HitchedTrialTests-Info.plist"; sourceTree = "<group>"; };
+		B5B37A4F138CDD2A0035BAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5B37A51138CDD2A0035BAB9 /* HitchedTrialTests-Prefix.pch */ = {isa = PBXFileReference; path = "HitchedTrialTests-Prefix.pch"; sourceTree = "<group>"; };
+		B5B37A52138CDD2A0035BAB9 /* HitchedTrialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HitchedTrialTests.h; sourceTree = "<group>"; };
+		B5B37A54138CDD2A0035BAB9 /* HitchedTrialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitchedTrialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B37A1E138CDD290035BAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B37A26138CDD290035BAB9 /* UIKit.framework in Frameworks */,
+				B5B37A28138CDD290035BAB9 /* Foundation.framework in Frameworks */,
+				B5B37A2A138CDD290035BAB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B37A41138CDD2A0035BAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B37A46138CDD2A0035BAB9 /* UIKit.framework in Frameworks */,
+				B5B37A47138CDD2A0035BAB9 /* Foundation.framework in Frameworks */,
+				B5B37A48138CDD2A0035BAB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B37A16138CDD290035BAB9 = {
+			isa = PBXGroup;
+			children = (
+				B5B37A2B138CDD290035BAB9 /* HitchedTrial */,
+				B5B37A4B138CDD2A0035BAB9 /* HitchedTrialTests */,
+				B5B37A24138CDD290035BAB9 /* Frameworks */,
+				B5B37A22138CDD290035BAB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B37A22138CDD290035BAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B37A21138CDD290035BAB9 /* HitchedTrial.app */,
+				B5B37A45138CDD2A0035BAB9 /* HitchedTrialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B37A24138CDD290035BAB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B37A25138CDD290035BAB9 /* UIKit.framework */,
+				B5B37A27138CDD290035BAB9 /* Foundation.framework */,
+				B5B37A29138CDD290035BAB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B37A2B138CDD290035BAB9 /* HitchedTrial */ = {
+			isa = PBXGroup;
+			children = (
+				B5B37A34138CDD290035BAB9 /* HitchedTrialAppDelegate.h */,
+				B5B37A35138CDD290035BAB9 /* HitchedTrialAppDelegate.m */,
+				B5B37A37138CDD290035BAB9 /* MainWindow.xib */,
+				B5B37A3A138CDD290035BAB9 /* HitchedTrialViewController.h */,
+				B5B37A3B138CDD290035BAB9 /* HitchedTrialViewController.m */,
+				B5B37A3D138CDD2A0035BAB9 /* HitchedTrialViewController.xib */,
+				B5B37A2C138CDD290035BAB9 /* Supporting Files */,
+			);
+			path = HitchedTrial;
+			sourceTree = "<group>";
+		};
+		B5B37A2C138CDD290035BAB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B37A2D138CDD290035BAB9 /* HitchedTrial-Info.plist */,
+				B5B37A2E138CDD290035BAB9 /* InfoPlist.strings */,
+				B5B37A31138CDD290035BAB9 /* HitchedTrial-Prefix.pch */,
+				B5B37A32138CDD290035BAB9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5B37A4B138CDD2A0035BAB9 /* HitchedTrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5B37A52138CDD2A0035BAB9 /* HitchedTrialTests.h */,
+				B5B37A54138CDD2A0035BAB9 /* HitchedTrialTests.m */,
+				B5B37A4C138CDD2A0035BAB9 /* Supporting Files */,
+			);
+			path = HitchedTrialTests;
+			sourceTree = "<group>";
+		};
+		B5B37A4C138CDD2A0035BAB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B37A4D138CDD2A0035BAB9 /* HitchedTrialTests-Info.plist */,
+				B5B37A4E138CDD2A0035BAB9 /* InfoPlist.strings */,
+				B5B37A51138CDD2A0035BAB9 /* HitchedTrialTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B37A20138CDD290035BAB9 /* HitchedTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B37A58138CDD2A0035BAB9 /* Build configuration list for PBXNativeTarget "HitchedTrial" */;
+			buildPhases = (
+				B5B37A1D138CDD290035BAB9 /* Sources */,
+				B5B37A1E138CDD290035BAB9 /* Frameworks */,
+				B5B37A1F138CDD290035BAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitchedTrial;
+			productName = HitchedTrial;
+			productReference = B5B37A21138CDD290035BAB9 /* HitchedTrial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5B37A44138CDD2A0035BAB9 /* HitchedTrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B37A5B138CDD2A0035BAB9 /* Build configuration list for PBXNativeTarget "HitchedTrialTests" */;
+			buildPhases = (
+				B5B37A40138CDD2A0035BAB9 /* Sources */,
+				B5B37A41138CDD2A0035BAB9 /* Frameworks */,
+				B5B37A42138CDD2A0035BAB9 /* Resources */,
+				B5B37A43138CDD2A0035BAB9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5B37A4A138CDD2A0035BAB9 /* PBXTargetDependency */,
+			);
+			name = HitchedTrialTests;
+			productName = HitchedTrialTests;
+			productReference = B5B37A45138CDD2A0035BAB9 /* HitchedTrialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B37A18138CDD290035BAB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Flinders University";
+			};
+			buildConfigurationList = B5B37A1B138CDD290035BAB9 /* Build configuration list for PBXProject "HitchedTrial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5B37A16138CDD290035BAB9;
+			productRefGroup = B5B37A22138CDD290035BAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B37A20138CDD290035BAB9 /* HitchedTrial */,
+				B5B37A44138CDD2A0035BAB9 /* HitchedTrialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B37A1F138CDD290035BAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B37A30138CDD290035BAB9 /* InfoPlist.strings in Resources */,
+				B5B37A39138CDD290035BAB9 /* MainWindow.xib in Resources */,
+				B5B37A3F138CDD2A0035BAB9 /* HitchedTrialViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B37A42138CDD2A0035BAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B37A50138CDD2A0035BAB9 /* InfoPlist.strings in Resources */,
+				B5B37A53138CDD2A0035BAB9 /* HitchedTrialTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5B37A43138CDD2A0035BAB9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B37A1D138CDD290035BAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B37A33138CDD290035BAB9 /* main.m in Sources */,
+				B5B37A36138CDD290035BAB9 /* HitchedTrialAppDelegate.m in Sources */,
+				B5B37A3C138CDD290035BAB9 /* HitchedTrialViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5B37A40138CDD2A0035BAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B37A55138CDD2A0035BAB9 /* HitchedTrialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5B37A4A138CDD2A0035BAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5B37A20138CDD290035BAB9 /* HitchedTrial */;
+			targetProxy = B5B37A49138CDD2A0035BAB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5B37A2E138CDD290035BAB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B37A2F138CDD290035BAB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5B37A37138CDD290035BAB9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B37A38138CDD290035BAB9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B5B37A3D138CDD2A0035BAB9 /* HitchedTrialViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B37A3E138CDD2A0035BAB9 /* en */,
+			);
+			name = HitchedTrialViewController.xib;
+			sourceTree = "<group>";
+		};
+		B5B37A4E138CDD2A0035BAB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B37A4F138CDD2A0035BAB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5B37A56138CDD2A0035BAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5B37A57138CDD2A0035BAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B5B37A59138CDD2A0035BAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HitchedTrial/HitchedTrial-Prefix.pch";
+				INFOPLIST_FILE = "HitchedTrial/HitchedTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5B37A5A138CDD2A0035BAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HitchedTrial/HitchedTrial-Prefix.pch";
+				INFOPLIST_FILE = "HitchedTrial/HitchedTrial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5B37A5C138CDD2A0035BAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HitchedTrial.app/HitchedTrial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HitchedTrialTests/HitchedTrialTests-Prefix.pch";
+				INFOPLIST_FILE = "HitchedTrialTests/HitchedTrialTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B5B37A5D138CDD2A0035BAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HitchedTrial.app/HitchedTrial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HitchedTrialTests/HitchedTrialTests-Prefix.pch";
+				INFOPLIST_FILE = "HitchedTrialTests/HitchedTrialTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B37A1B138CDD290035BAB9 /* Build configuration list for PBXProject "HitchedTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B37A56138CDD2A0035BAB9 /* Debug */,
+				B5B37A57138CDD2A0035BAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B37A58138CDD2A0035BAB9 /* Build configuration list for PBXNativeTarget "HitchedTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B37A59138CDD2A0035BAB9 /* Debug */,
+				B5B37A5A138CDD2A0035BAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5B37A5B138CDD2A0035BAB9 /* Build configuration list for PBXNativeTarget "HitchedTrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B37A5C138CDD2A0035BAB9 /* Debug */,
+				B5B37A5D138CDD2A0035BAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B37A18138CDD290035BAB9 /* Project object */;
+}
